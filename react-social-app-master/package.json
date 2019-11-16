@@ -1,0 +1,67 @@
+{
+  "name": "percy-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kunukn/react-collapse": "^1.0.5",
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/lab": "^4.0.0-alpha.18",
+    "@material-ui/styles": "^4.1.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "dexie": "^2.0.4",
+    "gapi": "0.0.3",
+    "googleapis": "^27.0.0",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-google-login": "^5.0.4",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "request": "^2.88.0",
+    "serve": "^11.0.2",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "startLocal": "react-scripts start",
+    "build": "react-scripts build && npm run build-sw",
+    "build-sw": "node ./src/custom-service-worker-build.js",
+    "serveBuild": "npm run build && NODE_ENV=production serve -s build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "clean-documentation-theme": "^0.5.2",
+    "documentation-devseed-theme": "^0.1.7",
+    "documentation-theme-bespoke": "^1.0.1",
+    "documentation-theme-light": "^1.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "node-mapnik-theme": "0.0.3",
+    "prettier": "^1.18.2",
+    "workbox-build": "^4.3.1"
+  }
+}

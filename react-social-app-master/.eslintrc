@@ -1,0 +1,9 @@
+{
+  "extends": "react-app",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "quotes": [1, "single", { "avoidEscape": true }],
+    "react/jsx-indent": [1, 2]
+  }
+}

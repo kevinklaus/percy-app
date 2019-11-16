@@ -1,0 +1,74 @@
+toc:
+  - name: Reducers
+    description: |
+      Here all redux reducers are listed.
+    children:
+      - allReducers
+      - contactReducer
+      - contactsReducer
+      - demoReducer
+      - errorReducer
+      - fetchingReducer
+      - googleContactsReducer
+      - groupReducer
+      - groupsReducer
+      - inputReducer
+      - modalReducer
+      - userReducer
+  - name: Actions
+    description: |
+      Here are the redux actions.
+    children:
+      - groupsActions
+      - demoActions
+      - contactsActions
+      - globalActions
+      - karmaActions
+      - modalActions
+      - notifyActions
+      - userActions
+  - name: Components
+    description: |
+      Here are Components.
+    children:
+      - ContactChoiceComponent
+      - ContactImage
+      - KarmaCircle
+      - ChatCard
+      - ChipsArray
+      - ContactButtons
+      - ContactView
+      - GroupCard
+      - PresentationCard
+      - PrivateRoute
+      - RouteButton
+      - searchBar
+      - CustomSlider
+      - CreateGroupFab
+      - Dashboard
+      - DemoControls
+      - ErrorSnackbar
+      - CreateGroup
+      - GroupSettings
+      - Login
+      - LoginButton
+      - NavigationButton
+      - TopNavigation
+      - Onboarding
+      - privacy
+      - Register
+      - RegisterButton
+      - SplashScreen
+  - name: services
+    description: |
+      Here are services.
+    children:
+      - contactService
+      - groupService
+      - userService
+  - name: database
+    description: |
+      Here is the database.
+    children:
+      - localDb
+

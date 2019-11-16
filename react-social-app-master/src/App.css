@@ -1,0 +1,42 @@
+
+/**
+  ChatCard
+*/
+
+.percy-chat-card{
+  height: 3.5em;
+  margin: 1rem 0rem -0.6rem 0.6rem;
+}
+
+.chat-card {
+  padding: 0em 0.3em 0em 0.3em;
+  border-radius: 0px 25px 25px 25px !important;
+  margin: 0.9em 0.9em 0em 0.9em;
+  background-color: #66BB6A !important; 
+  color: #fff !important;
+}
+
+.chat-card.secondary {
+  background-color: #FF9100 !important; 
+}
+
+.present {
+  padding: 0.7em 1em 0.7em 1em;
+}
+
+
+.contact-container {
+  display: grid;
+}
+
+.contact-container .contact-img {
+  z-index: 1;
+}
+
+
+.contact-karma-circle {
+  z-index: auto;
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
